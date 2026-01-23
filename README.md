@@ -1,2 +1,110 @@
 # postgreesql_datawarehouse-and-analyst-project
 Building a data warehouse with postgreSQL including ETL process data modeling and data analysis.
+
+
+
+# Data Warehouse and Analytics Project
+
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+
+---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into psotgreesql Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+- SQL Development
+- Data Architect
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics  
+
+---
+
+
+
+---
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+Develop a modern data warehouse using postgreesql  to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/
+    |--quality_checks_silver
+    |--quality_checks_gold
+                                 # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+
+
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About Me
+
+👋 About Me
+
+Hi! I’m Sai Kumar a recent graduate (2025) with a strong interest in Data Analytics,Data Science, SQL, Power Bi and Python. I enjoy working with data—cleaning it, transforming it, and turning it into meaningful insights.
+
+Currently, I’m building hands-on projects using PostgreSQL, Excel, Power BI, and Python, focusing on real-world scenarios like data warehousing (Bronze–Silver–Gold layers), SQL queries, and analytics workflows. I actively practice problem-solving on platforms like HackerRank to improve my logical thinking and coding skills.
+
+I’m passionate about continuous learning and enjoy exploring how data can support better decision-making. I would like to start my career in a Data Analyst /Data Science,Programmer Analyst role where I can apply my skills, learn from real projects, and grow as a professional.
